@@ -1,0 +1,53 @@
+body{
+  padding-left: 1em;
+  font-family: Tahoma, Arial, sans-serif;
+}
+
+header{
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #3B0B39;
+}
+
+header h1{
+  padding-left: 0.5em;
+  font-size: 250%;
+  color: white;
+}
+
+article, aside{
+  padding-top: 5em;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+table{
+  border: 2px solid black
+}
+
+tr, th{
+  width: 10em;
+  border: 1px solid black;
+}
+
+
+/*For use with the calendar table*/
+.study{
+  background-color: red;
+}
+
+.lecture{
+  background-color: yellow;
+}
+
+.practical{
+  background-color:blue;
+}
+
+.freetime{
+  background-color: green;
+}

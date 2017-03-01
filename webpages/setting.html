@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Settings</h1>
+    </header>
+    <article>
+      <section id='personal'>
+        <h2>Personal</h2>
+        <p>Change name:</p>
+        <input type="text" id="name">
+        <button id="submit">submit</button>
+      </section>
+      <section id='calendar'>
+        <h2>Calendar</h2>
+        <p>Click on a day and time to assign a task you should be doing.</p>
+        <table>
+          <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+          <tr>
+            <th>7:00am</th>
+            <th id='mon7'></th>
+            <th id='tue7'></th>
+            <th id='wed7'></th>
+            <th id='thu7'></th>
+            <th id='fri7'></th>
+            <th id='sat7'></th>
+            <th id='sun7'></th>
+          </tr>
+          <tr>
+            <th>8:00am</th>
+            <th id='mon8'></th>
+            <th id='tue8'></th>
+            <th id='wed8'></th>
+            <th id='thu8'></th>
+            <th id='fri8'></th>
+            <th id='sat8'></th>
+            <th id='sun8'></th>
+          </tr>
+          <tr>
+            <th>9:00am</th>
+            <th class='study' id='mon9'></th>
+            <th id='tue9'></th>
+            <th id='wed9'></th>
+            <th id='thu9'></th>
+            <th id='fri9'></th>
+            <th id='sat9'></th>
+            <th id='sun9'></th>
+          </tr>
+          <tr>
+            <th>10:00am</th>
+            <th id='mon10'></th>
+            <th id='tue10'></th>
+            <th id='wed10'></th>
+            <th id='thu10'></th>
+            <th id='fri10'></th>
+            <th id='sat10'></th>
+            <th id='sun10'></th>
+          </tr>
+          <tr>
+            <th>11:00am</th>
+            <th id='mon11'></th>
+            <th id='tue11'></th>
+            <th id='wed11'></th>
+            <th id='thu11'></th>
+            <th id='fri11'></th>
+            <th id='sat11'></th>
+            <th id='sun11'></th>
+          </tr>
+          <tr>
+            <th>12:00pm</th>
+            <th id='mon12'></th>
+            <th id='tue12'></th>
+            <th id='wed12'></th>
+            <th id='thu12'></th>
+            <th id='fri12'></th>
+            <th id='sat12'></th>
+            <th id='sun12'></th>
+          </tr>
+          <tr>
+            <th>1:00pm</th>
+            <th id='mon13'></th>
+            <th id='tue13'></th>
+            <th id='wed13'></th>
+            <th id='thu13'></th>
+            <th id='fri13'></th>
+            <th id='sat13'></th>
+            <th id='sun13'></th>
+          </tr>
+          <tr>
+            <th>2:00pm</th>
+            <th id='mon14'></th>
+            <th id='tue14'></th>
+            <th id='wed14'></th>
+            <th id='thu14'></th>
+            <th id='fri14'></th>
+            <th id='sat14'></th>
+            <th id='sun14'></th>
+          </tr>
+          <tr>
+            <th>3:00pm</th>
+            <th id='tue15'></th>
+            <th id='mon15'></th>
+            <th id='wed15'></th>
+            <th id='thu15'></th>
+            <th id='fri15'></th>
+            <th id='sat15'></th>
+            <th id='sun15'></th>
+          </tr>
+          <tr>
+            <th>4:00pm</th>
+            <th id='mon16'></th>
+            <th id='tue16'></th>
+            <th id='wed16'></th>
+            <th id='thu16'></th>
+            <th id='fri16'></th>
+            <th id='sat16'></th>
+            <th id='sun16'></th>
+          </tr>
+          <tr>
+            <th>5:00pm</th>
+            <th id='mon17'></th>
+            <th id='tue17'></th>
+            <th id='wed17'></th>
+            <th id='thu17'></th>
+            <th id='fri17'></th>
+            <th id='sat17'></th>
+            <th id='sun17'></th>
+          </tr>
+          <tr>
+            <th>6:00pm</th>
+            <th id='mon18'></th>
+            <th id='tue18'></th>
+            <th id='wed18'></th>
+            <th id='thu18'></th>
+            <th id='fri18'></th>
+            <th id='sat18'></th>
+            <th id='sun18'></th>
+          </tr>
+          <tr>
+            <th>7:00pm</th>
+            <th id='mon19'></th>
+            <th id='tue19'></th>
+            <th id='wed19'></th>
+            <th id='thu19'></th>
+            <th id='fri19'></th>
+            <th id='sat19'></th>
+            <th id='sun19'></th>
+          </tr>
+          <tr>
+            <th>8:00pm</th>
+            <th id='mon20'></th>
+            <th id='tue20'></th>
+            <th id='wed20'></th>
+            <th id='thu20'></th>
+            <th id='fri20'></th>
+            <th id='sat20'></th>
+            <th id='sun20'></th>
+          </tr>
+          <tr>
+            <th>9:00pm</th>
+            <th id='mon21'></th>
+            <th id='tue21'></th>
+            <th id='wed21'></th>
+            <th id='thu21'></th>
+            <th id='fri21'></th>
+            <th id='sat21'></th>
+            <th id='sun21'></th>
+          </tr>
+          <tr>
+            <th>10:00pm</th>
+            <th id='mon22'></th>
+            <th id='tue22'></th>
+            <th id='wed22'></th>
+            <th id='thu22'></th>
+            <th id='fri22'></th>
+            <th id='sat22'></th>
+            <th id='sun22'></th>
+          </tr>
+
+        </table>
+      </section>
+      <section id='reminders'>
+        <h2>Reminders</h2>
+        <p>Create a reminder here as well</p>
+        <input id='reminderName' width="20" placeholder="Name of event">
+        <textarea id="text" rows="3" placeholder="Enter description of event"></textarea>
+        <input id='date' width='10' placeholder="Enter date dd/mm/yyyy">
+      </section>
+      <section id='colours'>
+        <h2>Personalisation</h2>
+      </section>
+    </article>
+  </body>
+</html>
